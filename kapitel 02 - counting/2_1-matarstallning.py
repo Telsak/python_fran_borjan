@@ -1,0 +1,5 @@
+m_day = int(input('Mätarställning i dag? '))
+m_year = int(input('Mätarställning för ett år sedan? '))
+m_driven = m_day - m_year; print(f'Antal mil körda: {m_driven}')
+litres_gas = float(input('Antal liter bensin: '))
+print(f'Förbrukning per mil: {litres_gas / m_driven:.2f}')
