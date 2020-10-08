@@ -1,3 +1,7 @@
+'''
+Beräkna Volym och Area av en sfär
+'''
+
 radie = float(input('Ange sfärens radie i cm?\n'))
 
 volym = (4 * 3.1415926 * radie**2) / 3
